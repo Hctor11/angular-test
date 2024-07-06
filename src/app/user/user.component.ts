@@ -11,4 +11,8 @@ import { GamesComponent } from '../games/games.component';
 export class UserComponent {
   username = 'deathclassic';
   isLoggedIn = false;
+
+  greet(){
+    alert("HELLO WHATSUP HELLO WHATSUP")
+  }
 }
